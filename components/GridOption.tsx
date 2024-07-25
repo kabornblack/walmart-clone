@@ -3,15 +3,15 @@ import Image from "next/image";
 import Link from "next/link";
 
 type Props = {
-  title: String;
-  image?: String;
-  className?: String;
+  title: string;
+  image?: string;
+  className?: string;
 };
 
 function GridOption({ title, image, className }: Props) {
   return (
     <Link
-      href={{ pathname: "/search", query: { q: title } }}
+      href={{ pathname: "/search", query: { q: title.toString() } }}
       className={cn("grid-option relative", className)}
     >
       <h2 className="text-xl font-bold">{title}</h2>
