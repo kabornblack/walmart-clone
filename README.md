@@ -1,5 +1,5 @@
 # Walmart Clone
-https://walmart-clone-895t3jhfi-kabirus-projects-7de900c4.vercel.app/
+https://walmart-clone-one-steel.vercel.app/
 
 ## Introduction
 
