@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Walmart Clone
+https://walmart-clone-one-steel.vercel.app/
+
+## Introduction
+
+This project is a replica of the Walmart website, designed for educational purpose and it intend to showcase the functionalities of Walmart's online shopping experience.
+
+
+## Features
+
+- Product browsing with dynamic grid layout
+- Detailed product pages with image carousel
+- Add items to the cart (Shopping cart functionality)
+- Search for products in real-time 
+- View product details
+- Responsive design for various screen sizes
+
+## Technologies
+
+
+
+
+
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Oxylabs](https://oxylabs.io/)
+- [Shadcn UI](https://ui.shadcn.com/)
+- [Zustand](https://github.com/pmndrs/zustand)
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, follow these steps:
 
-```bash
+1. Clone the repository to your local machine.
+git clone https://github.com/kabornblack/walmart-clone.git
+
+
+2. Navigate to the project directory in the terminal.
+cd walmart-clone
+
+
+3. Install the project dependencies.
+npm install
+
+
+4. Start the development server.
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Usage
 
-## Learn More
+Navigate through the application to explore its features. Use the navigation bar to browse products, add items to the cart, search for products, and view detailed product information.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
